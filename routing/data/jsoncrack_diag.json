@@ -1,0 +1,182 @@
+{
+  "(<orig_osmid_a>, <dest_osmid_a>)": {
+    "path_osmids": {
+      "shortest_length": [
+        "<list of osmids>"
+      ],
+      "shortest_time": [
+        "<list of osmids>"
+      ],
+      "gen_0": [
+        "<list of osmids>"
+      ],
+      "gen_1": [
+        "<list of osmids>"
+      ],
+      "gen_<n_candidates*>": [
+        "<list of osmids>"
+      ]
+    },
+    "paths_data": {
+      "shortest_length": [
+        "<geodataframe with uvk index and cols reversed, length, geometry, travel_time, linearity>"
+      ],
+      "shortest_time": [
+        "<geodataframe with uvk index and cols reversed, length, geometry, travel_time, linearity>"
+      ],
+      "gen_0": [
+        "<geodataframe with uvk index and cols reversed, length, geometry, travel_time, linearity>"
+      ],
+      "gen_1": [
+        "<geodataframe with uvk index and cols reversed, length, geometry, travel_time, linearity>"
+      ],
+      "gen_<n_candidates*>": [
+        "<geodataframe with uvk index and cols reversed, length, geometry, travel_time, linearity>"
+      ]
+    },
+    "detections": {
+      "shortest_length": {
+        "left_turns": "<geodataframe with cols node, prev, curr, angle, geometry> | None",
+        "right_turns": "<geodataframe with cols node, prev, curr, angle, geometry> | None",
+        "curves": "<geodataframe with uvk index and cols name, linearity, geometry> | None",
+        "lights": "<geodataframe with cols osmid, direction, reversed, edge, geometry> | None"
+      },
+      "shortest_time": {
+        "left_turns": "<geodataframe with cols node, prev, curr, angle, geometry> | None",
+        "right_turns": "<geodataframe with cols node, prev, curr, angle, geometry> | None",
+        "curves": "<geodataframe with uvk index and cols name, linearity, geometry> | None",
+        "lights": "<geodataframe with cols osmid, direction, reversed, edge, geometry> | None"
+      },
+      "gen_0": {
+        "left_turns": "<geodataframe with cols node, prev, curr, angle, geometry> | None",
+        "right_turns": "<geodataframe with cols node, prev, curr, angle, geometry> | None",
+        "curves": "<geodataframe with uvk index and cols name, linearity, geometry> | None",
+        "lights": "<geodataframe with cols osmid, direction, reversed, edge, geometry> | None"
+      },
+      "gen_1": {
+        "left_turns": "<geodataframe with cols node, prev, curr, angle, geometry> | None",
+        "right_turns": "<geodataframe with cols node, prev, curr, angle, geometry> | None",
+        "curves": "<geodataframe with uvk index and cols name, linearity, geometry> | None",
+        "lights": "<geodataframe with cols osmid, direction, reversed, edge, geometry> | None"
+      },
+      "gen_<n_candidates*>": {
+        "left_turns": "<geodataframe with cols node, prev, curr, angle, geometry> | None",
+        "right_turns": "<geodataframe with cols node, prev, curr, angle, geometry> | None",
+        "curves": "<geodataframe with uvk index and cols name, linearity, geometry> | None",
+        "lights": "<geodataframe with cols osmid, direction, reversed, edge, geometry> | None"
+      }
+    },
+    "scores": {
+      "shortest_length": {
+        "interv_dist": 103.15199999999999,
+        "co2": 0.1033
+      },
+      "shortest_time": {
+        "interv_dist": 103.15199999999999,
+        "co2": 0.1033
+      },
+      "gen_0": {
+        "interv_dist": 131.7534,
+        "co2": 0.10720000000000002
+      },
+      "gen_1": {
+        "interv_dist": 103.15199999999999,
+        "co2": 0.1033
+      },
+      "gen_<n_candidates*>": {
+        "interv_dist": 148.25889999999998,
+        "co2": 0.1269
+      }
+    }
+  },
+  "(<orig_osmid_b>, <dest_osmid_b>)": {
+    "path_osmids": {
+      "shortest_length": [
+        "<list of osmids>"
+      ],
+      "shortest_time": [
+        "<list of osmids>"
+      ],
+      "gen_0": [
+        "<list of osmids>"
+      ],
+      "gen_1": [
+        "<list of osmids>"
+      ],
+      "gen_<n_candidates*>": [
+        "<list of osmids>"
+      ]
+    },
+    "paths_data": {
+      "shortest_length": [
+        "<geodataframe with uvk index and cols reversed, length, geometry, travel_time, linearity>"
+      ],
+      "shortest_time": [
+        "<geodataframe with uvk index and cols reversed, length, geometry, travel_time, linearity>"
+      ],
+      "gen_0": [
+        "<geodataframe with uvk index and cols reversed, length, geometry, travel_time, linearity>"
+      ],
+      "gen_1": [
+        "<geodataframe with uvk index and cols reversed, length, geometry, travel_time, linearity>"
+      ],
+      "gen_<n_candidates*>": [
+        "<geodataframe with uvk index and cols reversed, length, geometry, travel_time, linearity>"
+      ]
+    },
+    "detections": {
+      "shortest_length": {
+        "left_turns": "<geodataframe with cols node, prev, curr, angle, geometry> | None",
+        "right_turns": "<geodataframe with cols node, prev, curr, angle, geometry> | None",
+        "curves": "<geodataframe with uvk index and cols name, linearity, geometry> | None",
+        "lights": "<geodataframe with cols osmid, direction, reversed, edge, geometry> | None"
+      },
+      "shortest_time": {
+        "left_turns": "<geodataframe with cols node, prev, curr, angle, geometry> | None",
+        "right_turns": "<geodataframe with cols node, prev, curr, angle, geometry> | None",
+        "curves": "<geodataframe with uvk index and cols name, linearity, geometry> | None",
+        "lights": "<geodataframe with cols osmid, direction, reversed, edge, geometry> | None"
+      },
+      "gen_0": {
+        "left_turns": "<geodataframe with cols node, prev, curr, angle, geometry> | None",
+        "right_turns": "<geodataframe with cols node, prev, curr, angle, geometry> | None",
+        "curves": "<geodataframe with uvk index and cols name, linearity, geometry> | None",
+        "lights": "<geodataframe with cols osmid, direction, reversed, edge, geometry> | None"
+      },
+      "gen_1": {
+        "left_turns": "<geodataframe with cols node, prev, curr, angle, geometry> | None",
+        "right_turns": "<geodataframe with cols node, prev, curr, angle, geometry> | None",
+        "curves": "<geodataframe with uvk index and cols name, linearity, geometry> | None",
+        "lights": "<geodataframe with cols osmid, direction, reversed, edge, geometry> | None"
+      },
+      "gen_<n_candidates*>": {
+        "left_turns": "<geodataframe with cols node, prev, curr, angle, geometry> | None",
+        "right_turns": "<geodataframe with cols node, prev, curr, angle, geometry> | None",
+        "curves": "<geodataframe with uvk index and cols name, linearity, geometry> | None",
+        "lights": "<geodataframe with cols osmid, direction, reversed, edge, geometry> | None"
+      }
+    },
+    "scores": {
+      "shortest_length": {
+        "interv_dist": 103.15199999999999,
+        "co2": 0.1033
+      },
+      "shortest_time": {
+        "interv_dist": 103.15199999999999,
+        "co2": 0.1033
+      },
+      "gen_0": {
+        "interv_dist": 131.7534,
+        "co2": 0.10720000000000002
+      },
+      "gen_1": {
+        "interv_dist": 103.15199999999999,
+        "co2": 0.1033
+      },
+      "gen_<n_candidates*>": {
+        "interv_dist": 148.25889999999998,
+        "co2": 0.1269
+      }
+    }
+  }
+}
