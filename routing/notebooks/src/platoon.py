@@ -28,14 +28,14 @@ interv_dist_weights = dict(
     #curve=0.0,
     #four_way=6.1864,
     
-    four_way = 18.563574999999997,
-    curve = 14.190058333333333,
-    road_immission = 7.442591666666666,
-    traffic_light = 17.32914166666667,
-    turn_left = 16.0386,
-    turn_right = 28.914708333333333,
-
-    length_km=0.0
+    four_way = 14.226843749999999 ,
+    curve = 11.905875 ,
+    road_immission = 6.01636875 ,
+    traffic_light = 14.301731250000001 ,
+    turn_left = 14.3381375 ,
+    turn_right = 23.148687499999998 ,
+    old_dist = 0.91015 ,
+    length_km = 0.0
 )
 
 co2_weights = dict(
@@ -45,14 +45,14 @@ co2_weights = dict(
     #curve=0.0049,
     #four_way=0.0088,
     
-    four_way = 0.0036333333333333335,
-    curve = 0.0028083333333333333,
-    road_immission = 0.004358333333333333,
-    traffic_light = 0.0038250000000000003,
-    turn_left = 0.0029749999999999998,
-    turn_right = 0.004791666666666666,
-    
-    length_km=0.1
+    four_way = 0.004488235294117647 ,
+    curve = 0.003358823529411765 ,
+    road_immission = 0.004023529411764706 ,
+    traffic_light = 0.003788235294117647 ,
+    turn_left = 0.0026588235294117647 ,
+    turn_right = 0.004111764705882353 ,
+    old_dist = 1.548648823529412e-05 ,
+    length_km = 0.1
 )
 
 
