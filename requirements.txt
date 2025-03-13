@@ -1,0 +1,13 @@
+pandas
+numpy
+geopandas
+matplotlib
+seaborn
+scipy
+fiona
+jinja2
+contextily
+haversine
+folium
+statsmodels
+xlrd

@@ -6,7 +6,7 @@ This the code supporting the paper:
 
 Natalia Selini Hadjidimitriou, Alberto Compagnoni, Marco Mamei, Marco Picone and Ralf Willenbrock
 
-Submitted to Scientific Reports in 2023
+Submitted to PMC in 2025
 
 Files and data allow to reproduce all the reported experiments
 
